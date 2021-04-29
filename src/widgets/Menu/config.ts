@@ -5,24 +5,6 @@ export const links = [
     href: "/",
   },
   {
-    label: "My Page",
-    icon: "MyPageIcon",
-    items: [
-      {
-        label: "Wallet",
-        href: "/wallet",
-      },
-      {
-        label: "Referral",
-        href: "/referral",
-      },
-      {
-        label: "Refferral Management",
-        href: "/refferral-management",
-      },
-    ],
-  },
-  {
     label: "Trade",
     icon: "TradeIcon",
     items: [
@@ -122,10 +104,6 @@ export const links = [
         label: "Docs",
         href: "https://smart-dex29.gitbook.io/smart-dex/",
       },
-      {
-        label: "Blog",
-        href: "",
-      },
     ],
   },
 ];
@@ -193,6 +171,27 @@ export const socials = [
     label: "Twitter",
     icon: "TwitterIcon",
     href: "",
+  },
+];
+
+export const linkMyPage = [
+  {
+    label: "My Page",
+    icon: "MyPageIcon",
+    items: [
+      {
+        label: "Wallet",
+        href: "/wallet",
+      },
+      {
+        label: "Referral",
+        href: "/referral",
+      },
+      {
+        label: "Refferral Management",
+        href: "/refferral-management",
+      },
+    ],
   },
 ];
 
